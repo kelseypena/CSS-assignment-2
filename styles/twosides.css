@@ -20,18 +20,33 @@ h1 {
 }
 
 article {
-    width: 600px;
-    background: #fff;
+    font-size: 85%;
+    width: 35%;
     color: #000;
-    margin: 50px auto;
-    padding: 20px 40px;
+    float: right;
+    margin-top: 9%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    padding: 20px;
+    padding-top: 25px;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
 h2, section > p {
-    text-align: center;
+    text-align: left;
+}
+
+div {
+    width: 55%;
+    margin-top: 10%;
+    margin-right: 1%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    float: left;
+    overflow: hidden;
 }
 
 #cougar {
@@ -39,14 +54,14 @@ h2, section > p {
 }
 
 #cougar h2 {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
-    padding-top: 4em;
+    padding-top: 5%;
 }
 
 #cougar img {
     display: block;
-    margin: auto;
+    margin: .5px;
 }
 
 #lion {
@@ -54,12 +69,12 @@ h2, section > p {
 }
 
 #lion h2 {
-    text-align: center;
+    text-align: left;
 }
 
 #lion img {
     display: block;
-    margin: auto;
+    margin: .5px;
 }
 
 #tiger {
@@ -67,18 +82,19 @@ h2, section > p {
 }
 
 #tiger h2 {
-    text-align: center;
+    text-align: left;
 }
 
 #tiger img { 
     display: block;
-    margin: auto;
+    margin: .5px;
 }
 
 footer {
     font-size: 85%;
     text-align: center;
     padding: 0 33%;
+    
 }
 
 
